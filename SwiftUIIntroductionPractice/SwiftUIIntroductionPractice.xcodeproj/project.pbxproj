@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C11FB8C026F9A4F50059EB40 /* SandwichStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11FB8BF26F9A4F50059EB40 /* SandwichStore.swift */; };
+		C19152BF26F990F8003F0D79 /* Sandwich.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19152BE26F990F8003F0D79 /* Sandwich.swift */; };
+		C19152C126F99D24003F0D79 /* SandwichDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19152C026F99D24003F0D79 /* SandwichDetail.swift */; };
 		C1CD6E3026F5F87000C02047 /* SwiftUIIntroductionPracticeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1CD6E2F26F5F87000C02047 /* SwiftUIIntroductionPracticeApp.swift */; };
 		C1CD6E3226F5F87000C02047 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1CD6E3126F5F87000C02047 /* ContentView.swift */; };
 		C1CD6E3426F5F87100C02047 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1CD6E3326F5F87100C02047 /* Assets.xcassets */; };
@@ -33,6 +36,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C11FB8BF26F9A4F50059EB40 /* SandwichStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SandwichStore.swift; sourceTree = "<group>"; };
+		C19152BE26F990F8003F0D79 /* Sandwich.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sandwich.swift; sourceTree = "<group>"; };
+		C19152C026F99D24003F0D79 /* SandwichDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SandwichDetail.swift; sourceTree = "<group>"; };
 		C1CD6E2C26F5F87000C02047 /* SwiftUIIntroductionPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIIntroductionPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1CD6E2F26F5F87000C02047 /* SwiftUIIntroductionPracticeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIIntroductionPracticeApp.swift; sourceTree = "<group>"; };
 		C1CD6E3126F5F87000C02047 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -97,6 +103,9 @@
 			children = (
 				C1CD6E2F26F5F87000C02047 /* SwiftUIIntroductionPracticeApp.swift */,
 				C1CD6E3126F5F87000C02047 /* ContentView.swift */,
+				C11FB8BF26F9A4F50059EB40 /* SandwichStore.swift */,
+				C19152C026F99D24003F0D79 /* SandwichDetail.swift */,
+				C19152BE26F990F8003F0D79 /* Sandwich.swift */,
 				C1CD6E3326F5F87100C02047 /* Assets.xcassets */,
 				C1CD6E3826F5F87100C02047 /* Info.plist */,
 				C1CD6E3526F5F87100C02047 /* Preview Content */,
@@ -259,6 +268,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C11FB8C026F9A4F50059EB40 /* SandwichStore.swift in Sources */,
+				C19152C126F99D24003F0D79 /* SandwichDetail.swift in Sources */,
+				C19152BF26F990F8003F0D79 /* Sandwich.swift in Sources */,
 				C1CD6E3226F5F87000C02047 /* ContentView.swift in Sources */,
 				C1CD6E3026F5F87000C02047 /* SwiftUIIntroductionPracticeApp.swift in Sources */,
 			);
