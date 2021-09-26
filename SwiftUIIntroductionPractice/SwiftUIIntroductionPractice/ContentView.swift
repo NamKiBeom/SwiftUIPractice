@@ -48,7 +48,6 @@ struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView(store: testStore)
             .preferredColorScheme(.light)
-            .environment(\.sizeCategory, .medium)
     }
 }
 
